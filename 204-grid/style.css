@@ -5,28 +5,54 @@ body{
                          'navbar navbar navbar aside'
                          'section section section aside'
                          'footer footer footer footer'; 
-    grid-template-rows: 30vh 20vh 60vh 40vh;
+    grid-template-rows: 50vh 20vh 60vh 40vh;
     grid-gap: 15px;
+    
 }
 
 header{
     grid-area: header;
-    background-color: blue
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+header img{
+    width: 500px;
+    border-radius: 100%;
 }
 
 nav{
     grid-area: navbar;
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav a {
+    color: black;
+    font-size: 20pt;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 section{
     grid-area: section;
     background-color: green;
+    background-image: url(girafa-wikimedia.jpg);
+    background-size: cover;
 }
 
 aside{
     grid-area: aside;
     background-color: yellow;
+    background-image: url(_95189420_plate-1968011_1920.jpg);
+    background-size: cover;
 }
 
 footer{
