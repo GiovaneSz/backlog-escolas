@@ -53,9 +53,50 @@ aside{
     background-color: yellow;
     background-image: url(_95189420_plate-1968011_1920.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+aside button{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 20px;
+}
+
+aside input{
+    border: none;
+    height: 30px;
+    border-bottom: 2px black solid;
+    background-color: transparent;
+    color: black;
+    font-weight: 900;
+}
+
+aside input::placeholder{
+    font-weight: 900;
+    color: grey;
+}
+
+aside input:nth-child(3){
+    margin-top: 10px;
 }
 
 footer{
     grid-area: footer;
     background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
