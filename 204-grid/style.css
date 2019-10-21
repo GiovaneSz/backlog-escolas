@@ -1,40 +1,42 @@
-body{
+body {
     margin: 0;
     display: grid;
-    grid-template-areas: 'header header header header'
+    grid-template-areas: 'header header header header' 
                          'navbar navbar navbar aside'
                          'section section section aside'
-                         'footer footer footer aside'; 
-    grid-template-rows: 15vh 20vh 60vh 40vh;
+                         'footer footer footer footer';
+    grid-template-rows: 15vh 12vh 75vh 25vh;
     grid-gap: 0px;
-    
 }
 
-header{
+header {
     grid-area: header;
-    background-color: blue;
     display: flex;
     justify-content: space-around;
-    
-
+    background-color: rgb(255, 180, 81);
+    border-bottom: rgb(97, 63, 18) 5px solid;
+  
 }
 
-header img{
+header img {
     width: 500px;
     border-radius: 100%;
 }
 
-
-
-nav{
+nav {
     grid-area: navbar;
-    background-color: red;
+    background-color: rgb(253, 193, 114);
     display: flex;
-    align-items: center;
-    justify-content: space-around;  
-    
-
+    align-items: initial;
+    justify-content:center;
 }
+
+nav h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+    color: black;
+}
+
 header a {
     grid-area: header;
     display: flex;
@@ -42,45 +44,73 @@ header a {
     color: black;
     font-size: 20pt;
     text-decoration: none;
-
 }
 
-header a:hover{
+header a:hover {
     text-decoration: underline;
 }
-header a:focus{
+
+header a:focus {
     color: white;
 }
 
-
-section{
+section {
     grid-area: section;
-    background-color: green;
-    background-size: cover;
-}
+    display: flex;
+    justify-content:space-around;
+    
+    
 
-section img{
-    width: 500px;
-    margin:10px;
 }
 
 section div{
     display: flex;
+    align-items: center;
+    text-align: center;
+    width: 530px;
+    
     
 }
 
-aside{ 
+div p{
+    text-align: justify;
+    word-wrap: break-word;
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+
+section img{
+    border: solid 3px black;
+    margin: 10px;
+    height: 400px;
+    width: 500px;
+    border-radius: 5%;
+    margin-top: 60px;
+
+}
+
+section div {
+    display: flex;
+}
+
+#div2{
+    border:2px solid rgba(0, 0, 0, 0.609);
+    border-radius: 5%;
+}
+
+aside {
     grid-area: aside;
-    background-color: yellow;
+    background-color: rgba(79,79,47);
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: first baseline;
     align-items: center;
-} 
+}
 
-
- aside button{
+aside button {
     margin-top: 20px;
     border: none;
     border-radius: 10px;
@@ -88,7 +118,7 @@ aside{
     height: 20px;
 }
 
- aside input{
+aside input {
     border: none;
     height: 30px;
     border-bottom: 2px black solid;
@@ -97,32 +127,54 @@ aside{
     font-weight: 900;
 }
 
- aside input::placeholder{ 
+aside input::placeholder {
     font-weight: 900;
     color: grey;
 }
 
- aside input:nth-child(3){ 
-     margin-top: 10px;  
- }
+aside input:nth-child(3) {
+    margin-top: 10px;
+}
 
- aside div{
-     display: flex;
-     justify-content: center;
- }
-
-footer{
-    grid-area: footer;
-    background-color: purple;
+aside div {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-footer div{
+footer {
+    grid-area: footer;
+    background-color: rgb(211, 210, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid 4px black;
+    border-top: 3px solid black     ; 
+}
+
+footer div {
     height: 100px;
     width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+
+}
+#redes img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: solid black 2px;
+    border-radius: 100%;
+}
+#img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15px;
 }

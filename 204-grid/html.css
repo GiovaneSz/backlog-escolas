@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doações para escolas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="hamburguer.png" type="image/x-icon">
+    <script src=""></script>
+</head>
+
+<body>
+    <header><a href="">Home</a>
+        <a href="">Login</a>
+        <a href="">Escolas</a>
+        <a href="">Cadastrar</a></header >
+    <nav>
+        <div>
+            <h2>Mais amor por mais educação</h2>
+        </div>  
+    </nav>
+    <section>
+            <img src="1105-Sala-de-aula-Escola-Lindolfo-Collor-PF-0009-e1471465030233.jpg" alt="">
+                <div>
+                    <p>Os campeonatos comunitário são uma ótima oportunidade para você aprimorar suas habilidades e se divertir com sua equipe e receber premiações dentro do jogo (cristais). Você não precisa ter qualificação em ligas e nem ser jogador profissional.
+
+                        Você pode acompanhar o tutorial da PLATAFORMA TOORNAMENT em nosso site, sobre o que vai acontecer durante todo o evento.
+                        
+                        DATA DE INICIO:21/09/2019
+                        
+                        (Horário de São Paulo)
+                        INICIO DO CHECK IN: 13:00H
+                        TÉRMINO DO CHECK IN: 13:59H
+                        
+                        As partidas vão começar dentro do horário de cada rodada, veja nas brackets ao clicar em "matches".
+                        
+                        Não é obrigatório a utilização do DISCORD, toda a comunicação será através do website toornament.com na área do chat de cada partida, porém estaremos disponiveis no discord para sanar qualquer dúvida.</p>
+                </div>
+        
+    </section>
+    <aside>
+            
+            <h3>login da conta</h3>
+            <input placeholder="Digite seu email" type="email">
+            <input placeholder="Digite sua senha" type="password">
+            <button>Acessar</button>
+
+            <div>
+                <button>registro da escola</button>
+            </div>
+        
+    </aside> 
+    <footer>
+        <div>
+            <img src="hamburguer.png" alt="">
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
