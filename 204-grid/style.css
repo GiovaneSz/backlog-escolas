@@ -74,19 +74,19 @@ div p{
     font-size: 14px;
     color: rgb(0,0,0);
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: px;
+    margin-right: 5px;
     font-weight: bold;
 }
 
 section img{
     border: solid 3px white;
-    margin-left: 10px;
+    margin-left: 5px;
     height: 400px;
     width: 500px;
     border-radius: 5%;
     margin-top: 60px;
     margin-bottom: 10px;
-    
+    margin-right: 4px;
 }
 
 section div {
@@ -108,16 +108,29 @@ aside {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: first baseline;
-    align-items: center;
+    justify-content: center;
+    align-items: center;    
 }
 
-aside h3{
+aside h2{
+    text-align: center;
+    color: white;
+    text-justify: distribute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* aside h3{
     color: white;
     margin-top: 75px;
-}
+} */
 
-aside button {
+/* aside button {
     margin-top: 20px;
     border: none;
     border-radius: 10px;
@@ -146,7 +159,7 @@ aside input:nth-child(3) {
 aside div {
     display: flex;
     justify-content: center;
-}
+} */
 
 footer {
     grid-area: footer;
